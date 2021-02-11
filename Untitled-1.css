@@ -1,0 +1,46 @@
+table  {
+border-width: 3px;
+border-style: solid;
+border-collapse: collapse;
+margin: auto;
+
+}
+td, th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0.3cm;
+
+
+
+} 
+
+tr.thead , th.thead {
+    padding: 0.5cm;
+    background-color: rgb(85%, 90%, 100%);
+}
+td.total
+{
+    padding: 0.4cm;
+}
+td.semestre
+{
+    text-align: center;
+}
+caption
+{
+    background-color: rgb(100%, 100%, 70%);
+    margin-bottom: 1cm;
+    padding-top: 2cm ;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    font-variant: small-caps;
+}
+td.hover:hover
+{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+
+}
